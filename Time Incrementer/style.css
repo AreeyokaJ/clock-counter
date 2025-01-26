@@ -1,0 +1,139 @@
+#container{
+
+    border: 5px solid black;
+    color: white;
+    background-color: black;
+    margin-top: 20%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-left: 0%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+
+    /* border: red solid 4px; */
+
+
+}
+
+#toggleDiv{
+    /* border: red solid 4px; */
+    padding-left: 35%;
+    font-size: 2vw;
+
+}
+
+#display{
+    /* border: red solid 4px; */
+    background-color: white;
+    color: black;
+    margin-left: 22%;
+    margin-right: 19%;
+    margin-top: 3%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    padding-left: 14%;
+    font-size: 3vw;
+    font-family: Comic Sans MS;
+}
+
+.labels{
+    /* border: 5px red solid; */
+    margin-top: 5%;
+    padding-left: 21%;
+}
+
+.labels div {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    margin-right: 13%;
+    width: 16.4%;
+    font-family: Comic Sans MS; 
+    text-align: center;
+    font-size: 2vw;
+}
+
+
+button{
+    text-decoration: none;
+    background-color: white;
+    border: none;
+    width: 16%;
+    padding: 1% 8%;
+    margin-right: 13%;
+    transition: background-color 0.3s ease;
+    font-size: 1.4vw;
+
+}
+
+.incrementButtons{
+    margin-top: 3%;
+    margin-left: 21%
+}
+
+.decrementButtons{
+    margin-left: 21%;
+}
+
+button:hover{
+    background-color: #f2f2f2;
+}
+
+button:active{
+    background-color: #d9d9d9;
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 17%;
+    height: 2.3vw;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 75%;
+    width: 44%;
+    left: 6%;
+    bottom: 12%;
+    background-color: black;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: white;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(95%);
+    -ms-transform: translateX(95%);
+    transform: translateX(95%);
+  }
+  
